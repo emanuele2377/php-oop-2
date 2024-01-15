@@ -7,6 +7,7 @@ class Animali
     public $razza;
 
 
+
     public function __construct($razza)
     {
         $this->razza = $razza;

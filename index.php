@@ -24,10 +24,13 @@ require __DIR__ . '/data.php';
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">
-                                <?= $card->razza ?>
+                                <?= $card->animali->razza ?>
                             </h5>
                             <h6 class="card-subtitle mb-2 text-muted">
-                                <?= $card->prodotti->cibo ?>
+
+                                <?= $card->cibo ?> <br>
+                                <?= $card->giochi ?> <br>
+                                <?= $card->cuccie ?>
                             </h6>
                         </div>
                     </div>
