@@ -8,30 +8,31 @@ $cards = [
         "Cibo: crocchette",
         "Giochi: Pallina",
         "Cuccia: Casetta per cani",
-        new Animali("Cani")
+        "immagini",
+        new Animali("Cani", "nomeimg")
     ),
 
     new Prodotti(
         "crocchette",
         "Tiragrafffi",
         "Lettiera",
-
-        new Animali("Gatti")
+        "immagini",
+        new Animali("Gatti", "nomeimg")
     ),
 
     new Prodotti(
         "mangime",
         "Castello",
         "Acquario",
-
-        new Animali("Pesci")
+        "immagini",
+        new Animali("Pesci", "nomeimg")
     ),
 
     new Prodotti(
         "mangime",
         "Isoletta",
         "Acquario",
-
-        new Animali("Tartarughe")
+        "immagini",
+        new Animali("Tartarughe", "nomeimg")
     )
 ];

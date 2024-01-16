@@ -25,7 +25,7 @@ require __DIR__ . '/data.php';
                         <div class="card-body">
                             <h5 class="card-title">
                                 <?= $card->razza->razza ?>
-                                <img width="20%" src="./cani.jpg" alt="">
+                                <?= $card->immagini ?>
                             </h5>
                             <h6 class="card-subtitle mb-2 text-muted">
 
