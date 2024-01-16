@@ -8,7 +8,7 @@ $cards = [
         "crocchette",
         "Pallina",
         "Casetta",
-        new Animali("Cani")
+        new Animali("Cani", "20Kg")
     ),
 
     new Prodotti(
@@ -16,7 +16,7 @@ $cards = [
         "Tiragrafffi",
         "Lettiera",
 
-        new Animali("Gatti")
+        new Animali("Gatti", "10Kg")
     ),
 
     new Prodotti(
@@ -24,7 +24,7 @@ $cards = [
         "Castello",
         "Acquario",
 
-        new Animali("Pesci")
+        new Animali("Pesci", "60g")
     ),
 
     new Prodotti(
@@ -32,6 +32,6 @@ $cards = [
         "Isoletta",
         "Acquario",
 
-        new Animali("Tartarughe",)
+        new Animali("Tartarughe", "4Kg")
     )
 ];
