@@ -1,6 +1,7 @@
 <?php
 // Importo lo "strato dati"
 require __DIR__ . '/data.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,10 +22,10 @@ require __DIR__ . '/data.php';
         <div class="row">
             <?php foreach ($cards as $card) : ?>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card ">
                         <div class="card-body">
                             <h5 class="card-title">
-                                <?= $card->razza->razza ?>
+
                                 <?= $card->immagini ?>
                             </h5>
                             <h6 class="card-subtitle mb-2 text-muted">

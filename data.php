@@ -5,10 +5,10 @@ require_once __DIR__ . '/Animali.php';
 
 $cards = [
     new Prodotti(
-        "Cibo: crocchette 15$",
-        "Giochi: Pallina 10$",
-        "Cuccia: Casetta per cani 120$",
-        '<img class="img" src="./cani.jpg">',
+        " crocchette 15$",
+        " Pallina 10$",
+        " Casetta per cani 120$",
+        '<img style="width: 50%;" src="./cane.jpg">',
         new Animali("Cani", "nomeimg")
     ),
 
@@ -16,7 +16,7 @@ $cards = [
         "crocchette 14$",
         "Tiragrafffi 80$",
         "Lettiera 60$",
-        "immagini",
+        '<img style="width: 50%;" src="./gatto.jpg">',
         new Animali("Gatti", "nomeimg")
     ),
 
@@ -24,7 +24,7 @@ $cards = [
         "mangime 10$",
         "Castello 50$",
         "Acquario 150$",
-        '<img src="">',
+        '<img style="width: 50%;" src="./pesce.jpg">',
         new Animali("Pesci", "nomeimg")
     ),
 
@@ -32,7 +32,7 @@ $cards = [
         "mangime 10$",
         "Isoletta 30$",
         "Acquario 100$",
-        '<img src="">',
+        '<img style="width: 50%;" src="./tartaruga.jpg">',
         new Animali("Tartarughe", "nomeimg")
     )
 ];
