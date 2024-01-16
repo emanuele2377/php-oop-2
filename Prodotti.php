@@ -5,16 +5,14 @@ class Prodotti
     public $giochi;
     public $cuccie;
     public $razza;
-    public $dimensioni;
 
-    public function __construct($cibo, $giochi, $cuccie, Animali $razza, $dimensioni)
+    public function __construct($cibo, $giochi, $cuccie, Animali $razza)
     {
 
         $this->cibo = $cibo;
         $this->giochi = $giochi;
         $this->cuccie = $cuccie;
         $this->razza = $razza;
-        $this->dimensioni = $dimensioni;
     }
 
     public function getFullAddress()

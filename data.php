@@ -5,10 +5,10 @@ require_once __DIR__ . '/Animali.php';
 
 $cards = [
     new Prodotti(
-        "crocchette",
-        "Pallina",
-        "Casetta",
-        new Animali("Cani", "20Kg")
+        "Cibo: crocchette",
+        "Giochi: Pallina",
+        "Cuccia: Casetta per cani",
+        new Animali("Cani")
     ),
 
     new Prodotti(
@@ -16,7 +16,7 @@ $cards = [
         "Tiragrafffi",
         "Lettiera",
 
-        new Animali("Gatti", "10Kg")
+        new Animali("Gatti")
     ),
 
     new Prodotti(
@@ -24,7 +24,7 @@ $cards = [
         "Castello",
         "Acquario",
 
-        new Animali("Pesci", "60g")
+        new Animali("Pesci")
     ),
 
     new Prodotti(
@@ -32,6 +32,6 @@ $cards = [
         "Isoletta",
         "Acquario",
 
-        new Animali("Tartarughe", "4Kg")
+        new Animali("Tartarughe")
     )
 ];

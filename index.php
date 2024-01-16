@@ -24,7 +24,8 @@ require __DIR__ . '/data.php';
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">
-                                <?= $card->animali->razza ?>
+                                <?= $card->razza->razza ?>
+                                <img width="20%" src="./cani.jpg" alt="">
                             </h5>
                             <h6 class="card-subtitle mb-2 text-muted">
 
@@ -37,6 +38,8 @@ require __DIR__ . '/data.php';
                 </div>
             <?php endforeach; ?>
         </div>
+
+
     </div>
 </body>
 
